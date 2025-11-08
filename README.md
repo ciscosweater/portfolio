@@ -26,12 +26,12 @@ Um portfolio moderno e responsivo desenvolvido com Next.js, React e TypeScript p
 - Botão para download do currículo
 
 ### Seção de Projetos
-- Galeria interativa com 8 projetos destacados
+- Galeria interativa com projetos dinâmicos carregados do JSON
 - Sistema de filtragem por tecnologias
 - Cards de projetos com imagens e descrições
 - Modal de galeria com carrossel de imagens
 - Links diretos para projetos e repositórios
-- Organização por projetos em destaque
+- Organização por projetos em destaque (featured)
 
 ### Sistema de Galeria
 - Context API para gerenciamento de estado
@@ -179,16 +179,16 @@ const nextConfig: NextConfig = {
 
 ## 📱 Projetos em Destaque
 
-O portfolio showcase 8 projetos variados:
+O portfolio showcase projetos dinâmicos carregados do arquivo `src/data/projects.json`. 
 
-1. **Cardápio Delivery** - React, WhatsApp integration
-2. **YouTube Interface** - React clone, responsive design
-3. **YouTube Completo** - Full Stack com Node.js, MariaDB
-4. **WhatsApp Chat** - Real-time com Socket.IO
-5. **Quiz Gamer** - Next.js com SSR/SSG
-6. **Monty Hall** - Simulação de probabilidade
-7. **Enigma** - Jogo de charadas com React
-8. **Batman Site** - HTML/CSS puro, design promocional
+Os projetos são organizados automaticamente com:
+- **Projetos em destaque** (featured: true) exibidos primeiramente
+- **Filtragem por tecnologias** baseada nas tags
+- **Galeria de imagens** com captions descritivas
+- **Links diretos** para demonstrações e repositórios
+
+### Estrutura Dinâmica
+A lista de projetos é atualizada automaticamente conforme o arquivo JSON, permitindo fácil manutenção e adição de novos projetos sem necessidade de modificar o README.
 
 ## 🤝 Contribuição
 

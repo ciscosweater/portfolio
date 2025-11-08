@@ -1,5 +1,21 @@
 [
   {
+    "id": "accela",
+    "title": "ACCELA",
+    "subtitle": "Python, PyQt6 e Steam API",
+    "description": "Interface gráfica avançada para baixar jogos da Steam via depot system, feita em PyQt6 com integração à Steam Web API. Suporta downloads multi-threaded com pausa e retomada, monitoramento de velocidade e gestão completa da biblioteca. Integra-se a ferramentas como Steamless, SLSsteam e SLScheevo, e traz design moderno com tema escuro, animações suaves e otimização para Linux com suporte ao Wine.",
+    "images": [
+      "/assets/screenshots/accela/main-interface.png",
+      "/assets/screenshots/accela/game-management.png",
+      "/assets/screenshots/accela/settings.png"
+    ],
+    "captions": ["Interface Principal", "Gerenciamento de Jogos", "Configurações"],
+    "link": "https://github.com/ciscosweater/ACCELA",
+    "canVisit": false,
+    "tags": ["python", "pyqt6", "steam-api", "linux", "gaming", "drm", "desktop-app"],
+    "featured": true
+  },
+  {
     "id": "irmaos-de-sangue",
     "title": "Irmãos de Sangue",
     "subtitle": "Next.js, Firebase, TypeScript",
