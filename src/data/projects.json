@@ -63,7 +63,7 @@
     "link": "https://ciscosweater.github.io/youtube/",
     "canVisit": true,
     "tags": ["react", "frontend", "responsive", "clone"],
-    "featured": true
+    "featured": false
   },
   {
     "id": "ytcompleto",
@@ -85,7 +85,7 @@
     "link": "https://github.com/ciscosweater/youtube",
     "canVisit": false,
     "tags": ["react", "nodejs", "mariadb", "fullstack", "jwt"],
-    "featured": true
+    "featured": false
   },
   {
     "id": "whatsapp",
@@ -100,7 +100,7 @@
     "link": "https://github.com/ciscosweater/frontend-whatsapp",
     "canVisit": false,
     "tags": ["react", "typescript", "nodejs", "mariadb", "socketio", "realtime"],
-    "featured": true
+    "featured": false
   },
   {
     "id": "quizgamer",
@@ -117,7 +117,7 @@
     "link": "https://quiz-gamer.vercel.app/",
     "canVisit": true,
     "tags": ["nextjs", "react", "typescript", "ssr", "gaming"],
-    "featured": true
+    "featured": false
   },
   {
     "id": "montyhall",
@@ -133,37 +133,6 @@
     "link": "https://portas-nine.vercel.app/",
     "canVisit": true,
     "tags": ["nextjs", "react", "typescript", "probability", "educational"],
-    "featured": false
-  },
-  {
-    "id": "enigma",
-    "title": "Enigma",
-    "subtitle": "React",
-    "description": "Aplicação desafiadora de charadas desenvolvida com React, oferecendo experiência intuitiva e interativa. Apresenta múltiplas opções de resposta com feedback instantâneo e dicas para auxiliar na resolução. Inclui sistema de pontuação e níveis de dificuldade progressivos, ideal para exercitar raciocínio lógico e criatividade de forma divertida.",
-    "images": [
-      "/assets/screenshots/enigma/desktop.png",
-      "/assets/screenshots/enigma/mobile.png"
-    ],
-    "captions": ["Desktop", "Mobile"],
-    "link": "https://ciscosweater.github.io/enigma/",
-    "canVisit": true,
-    "tags": ["react", "gaming", "puzzle", "educational"],
-    "featured": false
-  },
-  {
-    "id": "batman",
-    "title": "Batman",
-    "subtitle": "HTML e CSS",
-    "description": "Site promocional para o filme do Batman desenvolvido com HTML e CSS. Apresenta interface elegante e atraente com design limpo e moderno que reflete a essência sombria do universo. Estrutura sólida em HTML com estilização CSS impactante, resultando em site responsivo e funcional ideal para engajar fãs e promover o filme.",
-    "images": [
-      "/assets/screenshots/batman/home.png",
-      "/assets/screenshots/batman/comentarios.png",
-      "/assets/screenshots/batman/mobile.png"
-    ],
-    "captions": ["Home", "Comentários", "Responsividade"],
-    "link": "https://ciscosweater.github.io/batman/",
-    "canVisit": true,
-    "tags": ["html", "css", "responsive", "design"],
     "featured": false
   }
 ]
